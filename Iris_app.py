@@ -23,7 +23,6 @@ df = user_input_features()
 st.subheader( ':پارامترهایی که انتخاب شدند' )
 st.write( df )
 
-import joblib
 from joblib import load
 iris_final_model = load( 'iris_final_model.joblib' )
 # from sklearn.linear_model import LogisticRegression
